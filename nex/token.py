@@ -4,9 +4,9 @@ Basic settings for an NEP5 Token and crowdsale
 
 from boa.blockchain.vm.Neo.Storage import *
 
-TOKEN_NAME = 'NEX Template V2'
+TOKEN_NAME = 'Farmers Token'
 
-TOKEN_SYMBOL = 'NXT2'
+TOKEN_SYMBOL = 'FTX'
 
 TOKEN_DECIMALS = 8
 
