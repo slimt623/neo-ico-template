@@ -2,7 +2,7 @@ from boa.blockchain.vm.Neo.Blockchain import GetHeight
 from boa.blockchain.vm.Neo.Runtime import CheckWitness
 from boa.blockchain.vm.Neo.Action import RegisterAction
 from boa.blockchain.vm.Neo.Storage import Get, Put
-from boa.blockchain.vm.builtins import concat
+from boa.code.builtins import concat
 from nex.token import *
 from nex.txio import get_asset_attachments
 
