@@ -12,9 +12,9 @@ from nex.txio import get_asset_attachments
 from nex.token import *
 from nex.crowdsale import *
 from nex.nep5 import *
-from boa.interop.Neo.Runtime import GetTrigger, CheckWitness
-from boa.interop.Neo.TriggerType import Application, Verification
-from boa.interop.Neo.Storage import *
+from boa.blockchain.vm.Neo.Runtime import GetTrigger, CheckWitness
+from boa.blockchain.vm.Neo.TriggerType import Application, Verification
+from boa.blockchain.vm.Neo.Storage import *
 
 ctx = GetContext()
 NEP5_METHODS = ['name', 'symbol', 'decimals', 'totalSupply', 'balanceOf', 'transfer', 'transferFrom', 'approve', 'allowance']

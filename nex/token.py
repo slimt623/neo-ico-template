@@ -2,7 +2,7 @@
 Basic settings for an NEP5 Token and crowdsale
 """
 
-from boa.interop.Neo.Storage import *
+from boa.blockchain.vm.Neo.Storage import *
 
 TOKEN_NAME = 'NEX Template V2'
 

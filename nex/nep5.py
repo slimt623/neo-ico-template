@@ -1,6 +1,6 @@
-from boa.interop.Neo.Runtime import CheckWitness, Notify
-from boa.interop.Neo.Action import RegisterAction
-from boa.interop.Neo.Storage import *
+from boa.blockchain.vm.Neo.Runtime import CheckWitness, Notify
+from boa.blockchain.vm.Neo.Action import RegisterAction
+from boa.blockchain.vm.Neo.Storage import *
 from boa.builtins import concat
 
 from nex.token import *

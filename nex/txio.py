@@ -1,6 +1,6 @@
-from boa.interop.System.ExecutionEngine import GetScriptContainer, GetExecutingScriptHash
-from boa.interop.Neo.Transaction import Transaction, GetReferences, GetOutputs, GetUnspentCoins
-from boa.interop.Neo.Output import GetValue, GetAssetId, GetScriptHash
+from boa.blockchain.vm.System.ExecutionEngine import GetScriptContainer, GetExecutingScriptHash
+from boa.blockchain.vm.Neo.Transaction import Transaction, GetReferences, GetOutputs, GetUnspentCoins
+from boa.blockchain.vm.Neo.Output import GetValue, GetAssetId, GetScriptHash
 
 
 neo_asset_id = b'\x9b|\xff\xda\xa6t\xbe\xae\x0f\x93\x0e\xbe`\x85\xaf\x90\x93\xe5\xfeV\xb3J\\"\x0c\xcd\xcfn\xfc3o\xc5'
